@@ -1,123 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />    
-  </head>
 
-  <body>
-    <header>
-      <h3><a href="#">WebStudio</a></h3>
-      <nav class="">
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="contacts">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />  
+</head>
+
+<body>
+  <header>
+    <a href="#">WebStudio</a>
+    <nav class="">
+      <ul>
+        <li><a href="#">Студия</a></li>
+        <li><a href="#">Портфолио</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+    <ul class="contacts">
+      <li>
         <a href="mailto:info@example.com">info@example.com</a>
+      </li>
+      <li>
         <a href="tel:+380991111111">+38 099 111 11 11</a>
-      </div>
-    </header>
-    <main>
-      <h1>
-        Эффективные решения для вашего бизнеса
-        <button type="button">Заказать услугу</button>
-      </h1>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <section>
+      <h1>Эффективные решения для вашего бизнеса</h1>
+      <button type="button">Заказать услугу</button>
+    </section>
+    <section>
+      <h2></h2>
       <ul class="our-edge">
         <li class="our-edge-item">
-          <h4 class="our-edge-item-title">Внимание к деталям</h4>
-          Идейные соображения, а также начало повседневной работы по
-          формированию позиции.
+          <h3 class="our-edge-item-title">Внимание к деталям</h3>
+          <p>
+            Идейные соображения, а также начало повседневной работы по
+            формированию позиции.
+          </p>
+
         </li>
         <li class="our-edge-item">
-          <h4 class="our-edge-item-title">Пунктуальность</h4>
-          Задача организации, в особенности же рамки и место обучения кадров
-          влечет за собой.
+          <h3 class="our-edge-item-title">Пунктуальность</h3>
+          <p>
+            Задача организации, в особенности же рамки и место обучения кадров
+            влечет за собой.
+          </p>
         </li>
         <li class="our-edge-item">
-          <h4 class="our-edge-item-title">Планирование</h4>
+          <h3 class="our-edge-item-title">Планирование</h3>
           Равным образом консультация с широким активом в значительной степени
           обуславливает.
         </li>
         <li class="our-edge-item">
-          <h4 class="our-edge-item-title">Современные технологии</h4>
-          Значимость этих проблем настолько очевидна, что реализация плановых
-          заданий.
+          <h3 class="our-edge-item-title">Современные технологии</h3>
+          <p>
+            Значимость этих проблем настолько очевидна, что реализация плановых
+            заданий.
+          </p>
         </li>
       </ul>
-      <div class="whot-me-do">
-        <h2 class="whot-me-do-title">Чем мы занимаемся</h2>
+    </section>
+    <section class="whot-me-do">
+      <h2 class="whot-me-do-title">Чем мы занимаемся</h2>
+      <ul class="whot-me-do-collections">
+        <li>
+          <img src="images/box_1.jpg" alt="Image whot me do" width="200" />
+        </li>
+        <li>
+          <img src="images/box_2.jpg" alt="Image whot me do" width="200" />
+        </li>
+        <li>
+          <img src="images/box_3.jpg" alt="Image whot me do" width="200" />
+        </li>
+      </ul>
+    </section>
+    <section class="our-team">
+      <h2 class="our-team-title">Наша команда</h2>
+      <ul class="our-team-collections">
+        <li class="our-team-collections-items">
+          <img src="images/team_img_1.jpg" alt="Team" width="270" />
+          <h3 class="our-team-collections-item-title">Игорь Демьяненко</h3>
+          <p class="our-team-collections-item-position">
+            Product Designer
+          </p>
+        </li>
+        <li class="our-team-collections-items">
+          <img src="images/team_img_2.jpg" alt="Team" width="270" />
+          <h3 class="our-team-collections-item-title">Ольга Репина</h3>
+          <p class="our-team-collections-item-position">
+            Frontend Developer
+          </p>
+        </li>
+        <li class="our-team-collections-items">
+          <img src="images/team_img_3.jpg" alt="Team" width="270" />
+          <h3 class="our-team-collections-item-title">Николай Тарасов</h3>
+          <p class="our-team-collections-item-position">Marketing</p>
+        </li>
+        <li class="our-team-collections-items">
+          <img src="images/team_img_4.jpg" alt="Team" width="270" />
+          <h3 class="our-team-collections-item-title">Михаил Ермаков</h3>
+          <p class="our-team-collections-item-position">UI Designer</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <a href="#">WebStudio</a>
+    <address>
+      <ul class="contacts">
+        <li>
+          г. Киев, пр-т Леси Украинки, 26
+        </li>
+        <li>
+          <a href="mailto:info@example.com">info@example.com</a><br />
+        </li>
+        <li>
+          <a href="tel:+380991111111">+38 099 111 11 11</a>
+        </li>
+      </ul>
+    </address>
+  </footer>
+</body>
 
-        <ul class="whot-me-do-collections">
-          <!-- <div class="whot-me-do-collection-item"> -->
-          <li>
-            <img src="images/box_1.jpg" alt="Image whot me do" width="200" />
-          </li>
-          <!-- </div> -->
-          <!-- <div class="whot-me-do-collection-item"> -->
-          <li>
-            <img src="images/box_2.jpg" alt="Image whot me do" width="200" />
-          </li>
-          <!-- </div> -->
-          <!-- <div class="whot-me-do-collection-item"> -->
-          <li>
-            <img src="images/box_3.jpg" alt="Image whot me do" width="200" />
-          </li>
-          <!-- </div> -->
-        </ul>
-      </div>
-      <div class="our-team">
-        <h2 class="our-team-title">Наша команда</h2>
-        <ul class="our-team-collections">
-          <li class="our-team-collections-items">
-            <div class="our-team-collections-item">
-              <img src="images/team_img_1.jpg" alt="Team" width="270" />
-              <div class="our-team-collections-item-title">
-                Игорь Демьяненко
-              </div>
-              <div class="our-team-collections-item-position">
-                Product Designer
-              </div>
-            </div>
-          </li>
-          <li class="our-team-collections-items">
-            <div class="our-team-collections-item">
-              <img src="images/team_img_2.jpg" alt="Team" width="270" />
-              <div class="our-team-collections-item-title">Ольга Репина</div>
-              <div class="our-team-collections-item-position">
-                Frontend Developer
-              </div>
-            </div>
-          </li>
-          <li class="our-team-collections-items">
-            <div class="our-team-collections-item">
-              <img src="images/team_img_3.jpg" alt="Team" width="270" />
-              <div class="our-team-collections-item-title">Николай Тарасов</div>
-              <div class="our-team-collections-item-position">Marketing</div>
-            </div>
-          </li>
-          <li class="our-team-collections-items">
-            <div class="our-team-collections-item">
-              <img src="images/team_img_4.jpg" alt="Team" width="270" />
-              <div class="our-team-collections-item-title">Михаил Ермаков</div>
-              <div class="our-team-collections-item-position">UI Designer</div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </main>
-    <footer>
-      <h3><a href="#">WebStudio</a></h3>
-      <address>
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:+380991111111">+38 099 111 11 11</a>
-      </address>
-    </footer>
-  </body>
 </html>
